@@ -1,6 +1,6 @@
-a =int (input("Enter any number"))
+a =int ((input("")))
 if a > 0:
-   print("Positive number")
+   print("Positive")
 elif a == 0:
    print("Zero")
 else:
