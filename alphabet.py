@@ -1,5 +1,5 @@
-t=float(input())
-if(t%2==0):
-  print('Even')
+t=input()
+if(t>='a'and t<='z'):
+   print('Alphabet')
 else:
-  print('Odd')
+   print('No')
