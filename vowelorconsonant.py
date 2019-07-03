@@ -1,5 +1,5 @@
-ch=input("enter character")
+ch=input("")
 if(ch=='a' or ch=='A' or ch=='e' or ch=='E' or ch=='i' or ch=='I' or ch=='o' or ch=='O' or ch=='u' or ch=='U'):
-  print(ch,"vowel")
+  print(ch,"Vowel")
 else:
-  print(ch,"consonant")
+  print(ch,"Consonant")
