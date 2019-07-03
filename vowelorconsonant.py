@@ -1,5 +1,9 @@
-ch=input("")
-if(ch=='a' or ch=='A' or ch=='e' or ch=='E' or ch=='i' or ch=='I' or ch=='o' or ch=='O' or ch=='u' or ch=='U'):
-  print(ch,"Consonant")
+b=input()
+if(b>="a" and b<="z"):
+    l=["a","e","i","o","u"]
+    if b in l:
+        print("Vowel")
+    else:
+        print("Consonant")
 else:
-  print(ch,"invalid")
+    print("Invalid")
