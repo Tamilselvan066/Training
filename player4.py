@@ -1,0 +1,2 @@
+ts=input()
+print(ts+".")
